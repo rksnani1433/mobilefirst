@@ -1,0 +1,35 @@
+.table-container {
+    overflow-x: auto;
+  }
+
+  .home-container{
+    background-color: #020e0f;
+    padding: 10px;
+    color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+
+  
+  .jokes-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    border:2px solid;
+  }
+  
+  .jokes-table th, .jokes-table td {
+    padding: 8px;
+    border: 2px solid white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .jokes-table {
+      overflow-x: auto;
+    }
+  }
+  
